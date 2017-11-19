@@ -4,26 +4,52 @@
   <title>Welcome to Vibes</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   <link rel="stylesheet" href="../Vibes-academy/css/style.css" />
 </head>
 
 <body>
+ 
   <div class="wrapper">
-    <header class="header">Vibes Academy</header>
-    
-    <article class="main" style="background-color: #fbf0f0;">
-      <nav class="breadcrumb" style="padding left: 20%;">You are here >
-  <a class="breadcrumb-item" href="#">Home</a>
-  <a class="breadcrumb-item" href="#">Chapter 1</a>
-  <a class="breadcrumb-item" href="#"> Simple Pendulum</a>
-  <!--<span class="breadcrumb-item active">Bootstrap</span>-->
-</nav>
+   
+<div class="header bg-dark" style="display: block;"> 
+  <div style="display: inline-block;padding-top: 10px">Vibes Academy</div>
+<div style="display: inline-block; float:right;padding-top: 10px;">
+  <ul class="nav justify-content-end" style="height :10% ; font-size: 15px; " >
+  
+  <li class="nav-item dropdown" >
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Courses
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Login</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Sign up</a>
+  </li>
+  
+</ul>
+</div> 
+</div>
+   <article class="main" style="background-color: #fbf0f0;">
+      <nav class="breadcrumb" >You are here >
+        <a class="breadcrumb-item" href="#">Home</a>
+        <a class="breadcrumb-item" href="#">Chapter 1</a>
+        <a class="breadcrumb-item active" href="#"> Simple Pendulum</a>
+          <!--<span class="breadcrumb-item active">Bootstrap</span>-->
+      </nav>
       <div  style="padding-top: 30px">
           <h4 style="padding-left: 3%;">Simple Pendulum</h4>
             <video width="725" height="400" controls style="padding-left: 3%;padding-right:3%;">
                 <source src="../Vibes-academy/videos/2_1_simple_pendulum_01.mp4" type="video/mp4">
                 <source src="../Vibes-academy/videos/2_1_simple_pendulum_01.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
+                        <i>Your browser does not support the video tag. </i>
             </video>
           <div>
                 <div style="float: left; padding-left: 10%;" ><a href="" > << Previous </a></div>
@@ -245,9 +271,11 @@
     <footer class="footer">Footer</footer>
   </div>
 
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+  <!--<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
     crossorigin="anonymous"></script>
 </body>
